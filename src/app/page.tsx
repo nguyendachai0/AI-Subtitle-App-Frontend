@@ -188,7 +188,7 @@ export default function Home() {
               <div className="flex gap-4">
                 <a
                   href={resultUrl}
-                  download={`subtitled_${file.name}`}
+                  download={`subtitled_${file?.name}`}
                   className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all flex items-center justify-center gap-2"
                 >
                   <Download className="w-5 h-5" />
