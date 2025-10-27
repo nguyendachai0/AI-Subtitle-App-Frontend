@@ -50,7 +50,7 @@ export default function Home() {
         });
       }, 200);
 
-      const response = await fetch('${process.env.NEXT_PUBLIC_API_URL}/api/subtitles/process', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/subtitles/process`, {
         method: 'POST',
         body: formData,
       });
